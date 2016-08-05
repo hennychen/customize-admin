@@ -1,0 +1,123 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Customize Admin\n"
+"POT-Creation-Date: 2015-09-26 14:50+0200\n"
+"PO-Revision-Date: 2016-08-05 16:31+0800\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Last-Translator: \n"
+"Language: zh_CN\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: customize-admin-options.php:69
+msgid "Customize Admin Options"
+msgstr "自定义管理选项"
+
+#: customize-admin-options.php:74
+msgid "Custom Logo Link"
+msgstr "自定义LOGO链接"
+
+#: customize-admin-options.php:77
+msgid "If not specified, clicking on the logo will return you to the homepage."
+msgstr "如果没有指定，点击标识将返回到主页。"
+
+#: customize-admin-options.php:82
+msgid "Custom Logo"
+msgstr "自定义LOGO"
+
+#: customize-admin-options.php:85
+msgid "Choose Image"
+msgstr "选择图像"
+
+#: customize-admin-options.php:86
+msgid "Enter a URL or upload logo image. Maximum height: 70px, width: 310px."
+msgstr "输入一个URL或上传徽标图像。最大高度：70像素，宽度：310px。"
+
+#: customize-admin-options.php:91
+msgid "Custom Login Background"
+msgstr "自定义登录背景"
+
+#: customize-admin-options.php:99
+msgid "Remove Generator Meta Tag"
+msgstr "移除生成的元标签"
+
+#: customize-admin-options.php:102
+msgid "Selecting this option removes the generator meta tag from the html source."
+msgstr "选择此选项将删除HTML源代码生成器元标记。"
+
+#: customize-admin-options.php:107
+msgid "Remove RSD Meta Tag"
+msgstr "移除生成的元标签"
+
+#: customize-admin-options.php:110
+msgid "Selecting this option removes the RSD meta tag from the html source."
+msgstr "选择此选项将删除HTML源代码的RSD元标记。"
+
+#: customize-admin-options.php:115
+msgid "Remove WLW Meta Tag"
+msgstr "移除生成的元标签"
+
+#: customize-admin-options.php:118
+msgid "Selecting this option removes the WLW meta tag from the html source."
+msgstr "选择此选项删除HTML源WLW元标记。"
+
+#: customize-admin-options.php:123
+msgid "Remove RSS feed links"
+msgstr "﻿本部分的RSS"
+
+#: customize-admin-options.php:126
+msgid "Selecting this option removes the RSS feed link from the html source."
+msgstr "选择此选项将删除HTML源代码的RSS源链接。"
+
+#: customize-admin-options.php:131
+msgid "Remove Dashboard Widgets"
+msgstr "移除仪表板部件"
+
+#: customize-admin-options.php:133
+msgid "Quick Draft"
+msgstr "快速草案"
+
+#: customize-admin-options.php:134
+msgid "Selecting this option removes the Quick Press dashboard widget."
+msgstr "选择此选项删除WordPress站点新闻仪表板部件。"
+
+#: customize-admin-options.php:141
+msgid "Activity"
+msgstr "活动"
+
+#: customize-admin-options.php:142
+msgid "Selecting this option removes the activity dashboard widget."
+msgstr "选择此选项删除WordPress站点新闻仪表板部件。"
+
+#: customize-admin-options.php:149
+msgid "WordPress Site News"
+msgstr "WordPress的新闻网站"
+
+#: customize-admin-options.php:150
+msgid "Selecting this option removes the WordPress Site News dashboard widget."
+msgstr "选择此选项删除WordPress站点新闻仪表板部件。"
+
+#: customize-admin-options.php:155
+msgid "Custom CSS"
+msgstr "自定义CSS"
+
+#: customize-admin-options.php:158
+msgid "Add your own css to the WordPress dashboard."
+msgstr "自己的CSS添加到WordPress的仪表板。"
+
+#: customize-admin-options.php:163
+msgid "Save Changes"
+msgstr "保存修改"
+
+#: customize-admin.php:38
+#, php-format
+msgid "Go to %1$s"
+msgstr ""
