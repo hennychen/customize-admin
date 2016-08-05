@@ -42,6 +42,8 @@ I also am not aware of any other plugins that allow you to specify a clickthroug
 
 Finally, this plugin is ready to be localized. All you have to do is to use the POT file for translating.
 
+(https://github.com/hennychen/customize-admin/blob/master/screenshot-1.png)
+
 == Changelog ==
 = 1.7.4 =
 add remove wp admin-bar logo and add language zh.
