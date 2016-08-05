@@ -138,7 +138,7 @@ function ca_settings_page() { ?>
 					<td>
 						<label for="ca_remove_admin_bar">
 							<input id="ca_remove_admin_bar" type="checkbox" name="ca_remove_admin_bar" value="1" <?php checked( '1', get_option( 'ca_remove_admin_bar' ) ); ?> />
-							<p class="description"><?php _e( '删除顶部Wordpress的logo.', 'customize-admin-plugin' ); ?></p>
+							<p class="description"><?php _e( 'Selecting this option removes the wpadmin-bar logo.', 'customize-admin-plugin' ); ?></p>
 						</label>
 					</td>
 				</tr>
