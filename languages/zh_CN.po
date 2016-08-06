@@ -21,6 +21,14 @@ msgstr ""
 msgid "Customize Admin Options"
 msgstr "自定义管理选项"
 
+#: customize-admin-options.php:92
+msgid "Custom foot CopyRight"
+msgstr "自定义底部版权信息"
+
+#: customize-admin-options.php:96
+msgid "If not specified, show value."
+msgstr "如果不填写将不显示版权信息,及显示你填写的内容"
+
 #: customize-admin-options.php:74
 msgid "Custom Logo Link"
 msgstr "自定义LOGO链接"

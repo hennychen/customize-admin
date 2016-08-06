@@ -162,4 +162,11 @@ function annointed_admin_bar_remove() {
 	
 }
 add_action('wp_before_admin_bar_render', 'annointed_admin_bar_remove', 0);
+
+add_filter('admin_footer_text', 'change_footer_admin');
+//change admin footer text
+function change_footer_admin () {
+
+	echo get_option('ca_change_footer_admin');
+}
 require_once( 'customize-admin-options.php' );

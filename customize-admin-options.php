@@ -26,7 +26,8 @@ function ca_register_settings() {
 	register_setting( 'customize-admin-settings-group', 'ca_remove_dashboard_quick_press', 'ca_sanitisation' );
 	register_setting( 'customize-admin-settings-group', 'ca_remove_dashboard_activity', 'ca_sanitisation' );
 	register_setting( 'customize-admin-settings-group', 'ca_remove_dashboard_wordpress_news', 'ca_sanitisation' );
-	register_setting( 'customize-admin-settings-group', 'ca_remove_admin_bar', 'ca_sanitisation' );
+	register_setting( 'customize-admin-settings-group', 'ca_remove_admin_bar', 'ca_sanitisation' );//删除顶部菜单wordpresslogo
+	register_setting( 'customize-admin-settings-group', 'ca_change_footer_admin','ca_sanitisation');
 }
 
 function ca_sanitisation ( $input ) {
@@ -84,6 +85,15 @@ function ca_settings_page() { ?>
 						<label for="ca_logo_url">
 							<input type="text" id="ca_logo_url" name="ca_logo_url" value="<?php echo esc_url ( get_option( 'ca_logo_url' ) ); ?>" />
 							<p class="description"><?php _e( 'If not specified, clicking on the logo will return you to the homepage.', 'customize-admin-plugin' ); ?></p>
+						</label>
+					</td>
+				</tr>
+				<tr valign="top">
+					<th scope="row"><?php _e( 'Custom foot CopyRight', 'customize-admin-plugin' ); ?></th>
+					<td>
+						<label for="ca_logo_url">
+							<input type="text" id="ca_change_footer_admin" name="ca_change_footer_admin" value="<?php echo  get_option( 'ca_change_footer_admin' ); ?>" />
+							<p class="description"><?php _e( 'If not specified, show value.', 'customize-admin-plugin' ); ?></p>
 						</label>
 					</td>
 				</tr>
