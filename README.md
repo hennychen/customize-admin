@@ -1,3 +1,8 @@
+30+ WordPress Admin Bar Tips and Tricks
+https://technerdia.com/1140_wordpress-admin-bar.html
+
+
+
 # customize-admin
 This plugin allows you to customize the appearance and branding of the WordPress admin interface.
 === Customize Admin ===
@@ -45,6 +50,7 @@ Finally, this plugin is ready to be localized. All you have to do is to use the 
 ![alt tag](https://github.com/hennychen/customize-admin/blob/master/screenshot-1.png)
 
 == Changelog ==
+
 = 1.7.4 =
 add remove wp admin-bar logo and add language zh.
 
